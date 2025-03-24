@@ -40,4 +40,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
       - name: Push the image to Docker Hub
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/java-console-test:latest        
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/java-console-test:latest         
